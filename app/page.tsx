@@ -90,7 +90,7 @@ export default function Home() {
             {[
               { zahl: "20+", label: "Jahre Vertriebserfahrung" },
               { zahl: "KMU", label: "Fokus Mittelstand" },
-              { zahl: "2026", label: "Zert. KI-Manager (IHK)" },
+              { zahl: "2026", label: "Zert. KI-Beauftragter (DEKRA)" },
               { zahl: "NRW", label: "Region Siegen" },
             ].map((item) => (
               <div key={item.label} className="py-2">
