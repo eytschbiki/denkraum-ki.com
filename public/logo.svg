@@ -1,0 +1,44 @@
+<svg width="680" height="300" viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg">
+
+  <rect x="155" y="20" width="370" height="260" rx="20" fill="#f0f6fd" stroke="#c8ddf5" stroke-width="0.5"/>
+
+  <!-- Kopf links -->
+  <circle cx="306" cy="72" r="17" fill="#0D47A1"/>
+
+  <!-- Linke Figur -->
+  <path d="
+    M258,106
+    C258,90 269,83 282,87
+    C295,91 301,104 314,104
+    C327,104 333,93 347,97
+    C358,101 362,115 352,126
+    C343,137 328,133 315,137
+    C302,141 296,155 283,158
+    C270,161 258,153 258,138
+    Z
+  " fill="#0D47A1"/>
+
+  <!-- Kopf rechts -->
+  <circle cx="358" cy="84" r="14" fill="#1E88E5"/>
+
+  <!-- Rechte Figur -->
+  <path d="
+    M314,116
+    C316,102 327,96 338,100
+    C349,104 353,116 366,116
+    C377,116 383,107 394,111
+    C404,115 407,128 398,139
+    C389,150 374,146 362,150
+    C351,153 345,165 332,167
+    C319,169 309,161 311,148
+    C313,135 312,129 314,116
+    Z
+  " fill="#1E88E5"/>
+
+  <!-- Trennlinie -->
+  <line x1="195" y1="192" x2="485" y2="192" stroke="#c8ddf5" stroke-width="0.5"/>
+
+  <!-- Text -->
+  <text x="340" y="240" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#0D47A1" text-anchor="middle" letter-spacing="2">DENKRAUM <tspan fill="#1E88E5">KI</tspan></text>
+
+</svg>
