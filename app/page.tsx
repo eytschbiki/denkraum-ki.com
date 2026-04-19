@@ -139,7 +139,7 @@ export default function Home() {
                 Ich bin KI-Berater aus Mudersbach und bringe über 20 Jahre Erfahrung in Vertrieb und technischer Beratung mit. Diese Kombination erlaubt mir, KI-Lösungen nicht nur technisch zu verstehen, sondern sie auch betriebswirtschaftlich sinnvoll einzuordnen.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Aktuell absolviere ich die Ausbildung zum zertifizierten KI-Manager und schließe diese im Mai 2026 ab. Mein Fokus liegt auf dem Mittelstand – Unternehmen, die pragmatische Lösungen ohne unnötige Komplexität benötigen.
+                Aktuell absolviere ich die Ausbildung zum zertifizierten KI-Beauftragten und schließe diese im Mai 2026 ab. Mein Fokus liegt auf dem Mittelstand – Unternehmen, die pragmatische Lösungen ohne unnötige Komplexität benötigen.
               </p>
               <div className="flex flex-wrap gap-2 mb-7">
                 {["KI-Strategie", "Prozessautomatisierung", "Mittelstand", "20+ J. Erfahrung", "Region Siegen"].map((tag) => (
