@@ -51,9 +51,9 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-[#0D47A1] to-[#1E88E5] text-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-20 md:py-28">
-          <div className="max-w-2xl">
+      <section className="relative bg-gradient-to-br from-[#0D47A1] to-[#1E88E5] text-white overflow-hidden">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-20 md:py-28 flex items-center justify-between gap-8">
+          <div className="max-w-2xl relative z-10">
             <span className="inline-block bg-white/15 text-white text-xs font-semibold px-3 py-1 rounded-full mb-5 tracking-wide uppercase">
               KI-Beratung für den Mittelstand
             </span>
@@ -79,6 +79,16 @@ export default function Home() {
                 Leistungen entdecken
               </Link>
             </div>
+          </div>
+          <div className="hidden md:flex shrink-0 items-center justify-center">
+            <Image
+              src="/hero.png"
+              alt=""
+              width={340}
+              height={340}
+              className="opacity-80 mix-blend-screen select-none"
+              aria-hidden="true"
+            />
           </div>
         </div>
       </section>
