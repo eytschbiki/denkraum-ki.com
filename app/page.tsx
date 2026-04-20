@@ -80,13 +80,13 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="hidden md:flex shrink-0 items-center justify-center">
+          <div className="hidden md:flex shrink-0 items-center justify-center" style={{maskImage: "linear-gradient(to right, transparent 0%, black 25%, black 75%, transparent 100%), linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%)", maskComposite: "intersect"}}>
             <Image
               src="/hero.png"
               alt=""
               width={340}
               height={340}
-              className="opacity-80 mix-blend-screen select-none"
+              className="opacity-70 mix-blend-screen select-none"
               aria-hidden="true"
             />
           </div>
